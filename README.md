@@ -15,7 +15,7 @@ The result should be
 ```
 {"count":40239259,"_shards":{"total":1,"successful":1,"skipped":0,"failed":0}}
 ```
-Since there are 40239259 indexed Wikidata entities in our ES container.
+Since there are 40,239,259 indexed Wikidata entities in our ES container.
 
 ### Entity Linking System
 After the ES container is started, you can then freely use our EL system to link mentions to Wikidata entities.
