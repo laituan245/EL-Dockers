@@ -2,6 +2,9 @@
 
 This repo contains instructions for running the Wikidata EL system of UIUC's [Blender Lab](https://blender.cs.illinois.edu/).
 
+### news
+- (December 8 2021) We added some minor updates to our EL system. Please pull the latest Docker `docker pull laituan245/wikidata_el_demo`.
+
 ## Running Instructions
 
 ### Knowledge Base (Wikidata)
