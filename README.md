@@ -2,6 +2,13 @@
 
 This repo contains instructions for running the Wikidata EL system of UIUC's [Blender Lab](https://blender.cs.illinois.edu/).
 
+Related paper:
+```
+Improving Candidate Retrieval with Entity Profile Generation for Wikidata Entity Linking
+Tuan Manh Lai, Heng Ji, and ChengXiang Zhai
+Annual Meeting of the Association for Computational Linguistics (ACL 2022) Findings
+```
+
 ### news
 - (December 8 2021) We added some minor updates to our EL system. Please pull the latest Docker `docker pull laituan245/wikidata_el_demo`.
 
