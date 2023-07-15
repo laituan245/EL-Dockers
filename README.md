@@ -32,7 +32,8 @@ Since there are 40,239,259 indexed Wikidata entities in our ES container.
 ### Entity Linking System
 After the ES container is started, you can then freely use our EL system to link mentions to Wikidata entities. The command is:
 ```
-docker run --net=host --gpus '"device=0"' --rm -v /shared:/shared laituan245/wikidata_el_demo --input_fp test_inputs.jsonl --output_fp test_outputs.jsonl
+git clone https://github.com/laituan245/EL-Dockers.git
+docker run --net=host --gpus '"device=0"' --rm -v ./EL-Dockers/samples:/shared laituan245/wikidata_el_demo --input_fp /shared/test_inputs.jsonl --output_fp test_outputs.jsonl
 ```
 
 We provided a sample [input file](https://github.com/laituan245/EL-Dockers/blob/main/samples/test_inputs.jsonl) and the model's corresponding [output file](https://github.com/laituan245/EL-Dockers/blob/main/samples/test_outputs.jsonl). Please refer to the files to see the formats. For example, the second input in the file is:
